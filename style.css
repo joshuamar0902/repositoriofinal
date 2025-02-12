@@ -1,0 +1,32 @@
+body{
+    margin: 50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+}
+h1{
+    color: purple;
+    background: yellow;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+img{
+    margin: auto;
+    width: 300px;
+    border: 3px double #000000;
+    border-radius: 50%;
+}
+p{
+    color: darkgreen;
+    font-size: 18px;
+}
+.img-main{
+    display:grid;
+}
