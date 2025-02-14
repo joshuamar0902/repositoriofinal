@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(45deg, #ffffff 0%, #351cf2 100%);
+    /*margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    Modo en una sola línea*/
+    margin: 20px 100px 50px 100px;
+}
+img{
+    width: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #ffffff 0%, #351cf2 100%);
+    
+}
+.imagen-div{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: console, sans-serif;
+    color: purple;
+    font-size: 70px;
+    text-shadow: 7px 3px 17px #d22d2d;;
+}
+.intro{
+    background: black;
+    color: white;
+    font-size: 24px;
+    padding: 25px;
+}
+.nav{
+    font-size: 24px;
+    margin-top: 50px;
+    list-style: none;
+    padding-left: 0;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    margin: 5px;
+    color: white;
+    background: #13a4a4;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav a:link{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.nav a:visited{
+    background-color: purple;
+}
+.nav a:hover{
+    background-color: transparent;
+}
+#manzana-card{
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(0deg, darkblue 0%, lightcyan 100%);
+    color: white;
+    border-radius: 30px;
+}
