@@ -1,0 +1,49 @@
+.banderafrancia{
+    background-color: beige;
+    border: 2px solid black;
+    width: 1000px;
+    height: 2000px;
+    margin: 0 auto;
+}
+.azul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    display: inline-block;
+
+}
+.blanco{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+.rojo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+.negal{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+.bandeale{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 50px;
+}
+.amarl{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
