@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mensaje" style="background: yellow;">
+
+    </div>
+    
+    <script type="text/javascript">
+        
+        /*
+        RETO 1: Declarar 2 valores enteros y sumarlos.
+        si la suma es mayor a 50 imprimir "Tienes BONO"
+        si no imprimir "Intenta de nuevo"
+        */
+        var a=50, b=12;
+        var suma=a+b;
+        const msg=document.getElementById("mensaje");
+        if(suma>50)
+            msg.innerHTML="Tienes BONO";
+        else
+            msg.innerHTML="Intenta de nuevo";
+          
+    </script>
+</body>
+</html>
