@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+#miId{
+    background-color: yellowgreen;
+}
+.miClase{
+    background-color: lightcyan;
+}
+.claseNueva{
+    background-color: violet;
+}

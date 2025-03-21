@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    padding: 0.5em;
+    background-color: #333;
+    color: white;
+    font-size: 100px;
+}
+.board{
+    display: grid;
+    font-size: 50px;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+    color: white;
+}
+.cell{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(140, 31, 31);
+    border-radius: 12px;
+}
+.cell .taken{
+    pointer-events: none;
+}
+
+#winner{
+    font-size: 1.5em;
+    color: purple;
+    margin: 20px;
+}
+.cell:hover{
+    background-color: rgb(0, 0, 0);
+    scale: 1.1;
+    transition: .5s;
+}
