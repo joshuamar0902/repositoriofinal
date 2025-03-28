@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generacion de tablas desde JavaScript</title>
+    <link rel="stylesheet" href="ejercicio_tablas_v2.css" type="text/css">
+</head>
+<body>
+    <h1>Tabla de Datos</h1>
+    <div id="tabla">
+    </div>
+    <p>
+        <button class="btn btn-editar" type="button" onclick="mostrarModal()">Agregar Nueva Fila</button>
+    </p>
+
+    <div id="contenedor-formulario" class="form-contenedor">
+    <div class="form-content">
+    <h2>Agregar Nueva Fila</h2>
+    <form id="formulario">
+        <input type="text" id="id" placeholder="Id" required>
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="email" id="correo" placeholder="Correo" required>
+        <input type="text" id="telefono" placeholder="Teléfono" required>
+        <input type="text" id="comentario" placeholder="Comentario">
+        <button type="button" class="btn btn-editar" onclick="agregarFila()">Agrega Fila</button>
+        <button type="button" class="btn btn-eliminar" onclick="cerrarFormulario()">Cancelar</button>
+    </form>
+    </div>
+    </div>
+
+    <script src="ejercicios_tablas_v2.js" type="text/javascript"></script>
+</body>
+</html>
