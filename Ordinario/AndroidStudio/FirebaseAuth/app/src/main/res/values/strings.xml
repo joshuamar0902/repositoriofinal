@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="register_now">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="on_application">En la aplicación</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="click_to_login_now">¿Ya tienes cuenta? Inicia sesión</string>
+
+</resources>
